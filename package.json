@@ -1,0 +1,14 @@
+{
+  "name": "bookshelf",
+  "version": "1.0.0",
+  "description": "BookShelf - Plataforma de Publicação Editorial e Artigos de Opinião para o 3º DS",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build:client": "cd client && npm run build"
+  },
+  "keywords": ["bookshelf", "editora", "literatura", "artigos", "sqlite"],
+  "author": "3º DS",
+  "license": "ISC"
+}
